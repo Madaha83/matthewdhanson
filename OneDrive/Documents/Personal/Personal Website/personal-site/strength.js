@@ -108,7 +108,8 @@
     }
 
     // hover layer: crosshair + tooltip at nearest x
-    var hover = el("g", { class: "hover", style: "display:none" }, svg);
+    var hover = el("g", { class: "hover" }, svg);
+    hover.style.display = "none";   // set via CSSOM: the CSP blocks style attributes
     var vline = el("line", { y1: m.t, y2: m.t + ih, class: "crosshair" }, hover);
     var hdots = opts.series.map(function (s) { return el("circle", { r: 5, class: "dot " + s.cls }, hover); });
     var tip = html("div", "chart-tip");
