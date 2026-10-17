@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do women’s records catch up? · Matthew D. Hanson, Ph.D.</title>
+<meta name="description" content="World-record histories in 28 running, jumping, and swimming events: how fast the gap between women and men closed once women could compete, and where it levels off.">
+<link rel="canonical" href="https://matthewdhanson.com/records">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Matthew D. Hanson, Ph.D.">
+<meta property="og:image:alt" content="Matthew D. Hanson, Ph.D., industrial-organizational psychologist">
+<meta property="og:title" content="Do women’s records catch up? · Matthew D. Hanson, Ph.D.">
+<meta property="og:description" content="World-record histories in 28 running, jumping, and swimming events: how fast the gap between women and men closed once women could compete, and where it levels off.">
+<meta property="og:url" content="https://matthewdhanson.com/records">
+<meta property="og:image" content="https://matthewdhanson.com/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Matthew D. Hanson, Ph.D., industrial-organizational psychologist">
+<meta name="theme-color" content="#FAF6EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12161D" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="site.js"></script>
+<script src="charts.js" defer></script>
+<script src="records.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">Matthew D. Hanson<span class="phd">, Ph.D.</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html" aria-current="page">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<article>
+<section class="page-intro">
+  <div class="wrap essay-head">
+    <p class="eyebrow">Research showcase &middot; Data analysis</p>
+    <h1>Do women&rsquo;s records catch up?</h1>
+    <p class="lede">Men have competed in organized sport for much longer than women. If part of today&rsquo;s performance gap is a head start, the gap should shrink as women accumulate competitive history. I traced world-record histories in 28 events to see how fast it closed, and whether it is still closing.</p>
+    <p class="byline muted">Matthew D. Hanson &middot; October 2026 &middot; Companion to <a href="strength.html">Did more competition close the strength gap?</a> &middot; <a href="https://github.com/Madaha83/matthewdhanson/tree/master/analysis/records-gap">Code on GitHub</a></p>
+  </div>
+</section>
+
+<div class="wrap essay">
+  <aside class="findings" aria-labelledby="kf-h">
+    <h2 id="kf-h" class="eyebrow">Key findings</h2>
+    <ol>
+      <li><strong>The head start was real.</strong> Once women could compete, gaps closed fast. In the marathon, women&rsquo;s record went from 62% of men&rsquo;s speed in 1963 to 90% by 1985.</li>
+      <li><strong>Then it levelled off.</strong> In events with a measurable curve, most of the catch-up happened within roughly <strong>28&ndash;71 years</strong> of women gaining real access, and in 18 of 19 the plateau sits clearly below parity.</li>
+      <li>Across 28 events with identical rules for men and women, women&rsquo;s world records today are <strong>80&ndash;94%</strong> of men&rsquo;s. None has passed 95%.</li>
+      <li>In swimming, both sexes&rsquo; records improved by about <strong>4%</strong> since 2000 and the ratio barely moved, so extra competitive history is no longer narrowing the elite gap there.</li>
+      <li>A famous 1992 projection put marathon parity in the late 1990s. Re-running it gives <strong>1996</strong>. In 2026 the women&rsquo;s record is still 92% of the men&rsquo;s.</li>
+    </ol>
+  </aside>
+
+  <section class="essay-section" aria-labelledby="s1">
+    <h2 id="s1">The question</h2>
+    <p>Elite men run faster, jump higher, and swim faster than elite women. Much of that difference is biological, but not necessarily all of it. Men&rsquo;s events have had decades or centuries more competition, coaching, money, and talent development. If that head start matters, two things should show up in the data:</p>
+    <ul>
+      <li>Gaps should <strong>shrink</strong> as women&rsquo;s events mature.</li>
+      <li>Where they stop shrinking tells us how much of the gap the head start explained, and how long catching up takes.</li>
+    </ul>
+  </section>
+
+  <section class="essay-section" aria-labelledby="s2">
+    <h2 id="s2">The data</h2>
+    <p>I collected world-record progressions for 28 events where men and women compete under identical conditions: flat running from 100&nbsp;m to the marathon, the high, long, and triple jumps, the pole vault, and long-course swimming. Hurdles, steeplechase, and throws were excluded because barrier heights or implement weights differ. For every year, I took each sex&rsquo;s standing world record and computed women&rsquo;s performance as a share of men&rsquo;s (speed for races, distance or height for jumps). Records later rescinded or never ratified were removed. Tables come from Wikipedia&rsquo;s record-progression articles (CC BY-SA), along with winners of the five oldest World Marathon Majors.</p>
+  </section>
+
+  <section class="essay-section" aria-labelledby="s3">
+    <h2 id="s3">The marathon: a late start, a fast catch-up, a plateau</h2>
+    <p>Women were effectively shut out of the marathon for decades. Boston admitted women in 1972, and the Olympics added a women&rsquo;s marathon only in 1984. The women&rsquo;s record barely moved from 1926 until the 1960s. Then, as women gained access, it fell by more than an hour in two decades.</p>
+    <p>In 1992, two physiologists extrapolated that steep stretch in a straight line and predicted women would match men by 1998. Re-running the same approach on data through 1992 gives 1996. Instead, the ratio levelled off at about 90% by the mid-1980s and has moved only a couple of points since.</p>
+  </section>
+
+  <figure class="figure" aria-labelledby="marathon-h">
+  <figcaption><h3 id="marathon-h">Women&rsquo;s marathon record as a share of men&rsquo;s</h3><p class="muted">Standing world records each year (mixed races). The dashed line is a straight-line projection fitted to 1963&ndash;1992; the gray curve is the catch-up model.</p></figcaption>
+  <ul class="legend"><li><span class="key s-men"></span>World records</li><li><span class="key s-ref"></span>Catch-up model</li><li><span class="key s-ochre"></span>1992-style projection</li></ul>
+  <div class="chart" id="c-marathon"><p class="muted chart-loading">Loading chart&hellip;</p></div>
+  <details class="table-view"><summary>Show the data as a table</summary><div id="t-marathon"></div></details>
+</figure>
+
+  <section class="essay-section" aria-labelledby="s4">
+    <h2 id="s4">Every event, same shape</h2>
+    <p>For each event I fitted a <strong>catch-up curve</strong>: the ratio stays flat until an <em>onset</em> year when women&rsquo;s competition takes off, rises quickly, then approaches a plateau. The model estimates the onset, the plateau, and how fast the gap closes. Pick any event below to see its history.</p>
+  </section>
+
+  <figure class="figure" aria-labelledby="event-h">
+  <figcaption><h3 id="event-h">One event at a time</h3><p class="muted">Standing world records each year, with the fitted catch-up curve.</p></figcaption>
+  <p class="select-row"><label for="ev-select">Event</label> <select id="ev-select"></select></p><ul class="legend"><li><span class="key s-men"></span>World records</li><li><span class="key s-ref"></span>Catch-up model</li></ul><p class="ev-summary" id="ev-summary" aria-live="polite"></p>
+  <div class="chart" id="c-event"><p class="muted chart-loading">Loading chart&hellip;</p></div>
+  <details class="table-view"><summary>Show the data as a table</summary><div id="t-event"></div></details>
+</figure>
+
+  <section class="essay-section" aria-labelledby="s5">
+    <h2 id="s5">How long does catching up take?</h2>
+    <p>The curve could be estimated reliably in 19 events; the rest changed in too few large steps to fit. Across those 19, the typical catch-up time constant is about <strong>14 years</strong> (95% interval 10&ndash;24). That means most of the rise toward each event&rsquo;s plateau played out within roughly <strong>28&ndash;71 years</strong> of serious women&rsquo;s competition beginning. Some events moved much faster: the women&rsquo;s triple jump and pole vault, added in the 1990s, caught up within about fifteen years, helped by coaching and training knowledge that already existed.</p>
+  </section>
+
+  <figure class="figure" aria-labelledby="window-h">
+  <figcaption><h3 id="window-h">When each catch-up began, and roughly when it was 95% complete</h3><p class="muted">Dot: estimated onset year. Line: onset to 95% of the way to that event&rsquo;s own plateau.</p></figcaption>
+  <ul class="legend"><li><span class="key s-ochre"></span>Athletics</li><li><span class="key s-men"></span>Swimming</li></ul>
+  <div class="chart" id="c-window"><p class="muted chart-loading">Loading chart&hellip;</p></div>
+  <details class="table-view"><summary>Show the data as a table</summary><div id="t-window"></div></details>
+</figure>
+
+  <section class="essay-section" aria-labelledby="s6">
+    <h2 id="s6">Where does the gap settle?</h2>
+    <p>Every estimated plateau sits well short of parity, between about 82% (pole vault) and 94% (distance freestyle swimming). Women come closest in long-distance swimming, and the gap is widest in events that depend most on explosive power, like the jumps and vault. The intervals are approximate, because world records change in a few large steps, but in 18 of 19 events even the upper end of the interval stays below 100%. Across all 28 events, 12 show flat or falling ratios over the last 20 years.</p>
+  </section>
+
+  <figure class="figure" aria-labelledby="plateau-h">
+  <figcaption><h3 id="plateau-h">Estimated plateau of the women-to-men record ratio</h3><p class="muted">Dot: estimate. Line: approximate 95% interval. Events whose curve couldn&rsquo;t be estimated are left out.</p></figcaption>
+  <ul class="legend"><li><span class="key s-ochre"></span>Athletics</li><li><span class="key s-men"></span>Swimming</li></ul>
+  <div class="chart" id="c-plateau"><p class="muted chart-loading">Loading chart&hellip;</p></div>
+  <details class="table-view"><summary>Show the data as a table</summary><div id="t-plateau"></div></details>
+</figure>
+
+  <section class="essay-section" aria-labelledby="s7">
+    <h2 id="s7">Is it a plateau, or are records just frozen?</h2>
+    <p>A flat ratio could mean women have stopped catching up, or just that records stopped falling. Several women&rsquo;s sprint, 800&nbsp;m, 3000&nbsp;m, and long-jump records have stood since the 1980s, an era of state-sponsored doping, so those ratios are flat because one record is frozen. Swimming is the cleaner test. Since 2000, both sexes&rsquo; records improved by almost exactly the same amount (about 3.6% for men and 3.8% for women on average), so the ratio held steady while both kept getting faster. In distance running, women have gained somewhat more than men since 2000, which is consistent with women&rsquo;s distance running still deepening.</p>
+  </section>
+
+  <figure class="figure" aria-labelledby="gains-h">
+  <figcaption><h3 id="gains-h">Improvement in the world record since 2000</h3><p class="muted">Percent faster (or farther) than the record standing in 2000.</p></figcaption>
+  <ul class="legend"><li><span class="key s-men"></span>Men</li><li><span class="key s-women"></span>Women</li></ul>
+  <div class="chart" id="c-gains"><p class="muted chart-loading">Loading chart&hellip;</p></div>
+  <details class="table-view"><summary>Show the data as a table</summary><div id="t-gains"></div></details>
+</figure>
+
+  <section class="essay-section" aria-labelledby="s8">
+    <h2 id="s8">Beyond single records</h2>
+    <p>World records capture one extraordinary performance at a time. Race winners give a second view: across the Boston, New York, Chicago, London, and Berlin marathons, the women&rsquo;s winning time averaged 88.3% of the men&rsquo;s speed in the late 1980s and 90.0% since 2020. That is a slow drift of about half a percentage point per decade, far smaller than the early catch-up. Below the elite level, where participation still differs most, the companion <a href="strength.html">powerlifting analysis</a> found that a growing pool of competitors explains a meaningful part of the narrowing.</p>
+  </section>
+
+  <figure class="figure" aria-labelledby="majors-h">
+  <figcaption><h3 id="majors-h">Women&rsquo;s winning time as a share of men&rsquo;s, World Marathon Majors</h3><p class="muted">Average across the majors held each year (speed ratio).</p></figcaption>
+  
+  <div class="chart" id="c-majors"><p class="muted chart-loading">Loading chart&hellip;</p></div>
+  <details class="table-view"><summary>Show the data as a table</summary><div id="t-majors"></div></details>
+</figure>
+
+  <section class="essay-section" aria-labelledby="s9">
+    <h2 id="s9">So how long until women compete with men?</h2>
+    <p>On the evidence here: <strong>not on any trajectory we can observe.</strong> The opportunity effect was large. Gaining access moved women&rsquo;s records by 20 to 30 percentage points relative to men&rsquo;s, far more than anything since. But in event after event, the gap stops shrinking a few decades after women gain real access, and it settles 6 to 20 percent short of parity. Straight-line trends from recent decades do point to parity in some events, but only centuries from now, and that is exactly the kind of extrapolation that failed for the marathon.</p>
+    <p>That doesn&rsquo;t mean culture is irrelevant. Access, coaching, investment, and participation clearly shaped how quickly women reached the plateau, and they still matter for depth of competition below the very top. But at the elite level, the remaining gap looks stable, consistent with physiological differences that more competitive history alone doesn&rsquo;t erase.</p>
+  </section>
+
+  <section class="essay-section methods" aria-labelledby="s10">
+    <h2 id="s10">Methods &amp; limitations</h2>
+    <p><strong>Pipeline.</strong> Python (pandas, SciPy). Record tables were parsed from cached Wikipedia pages. Rows marked as rescinded, unratified, or pending were removed. For each year, the standing record is the best mark to date. The catch-up model has a flat level until an onset year, then an exponential approach to a plateau. The onset is found by grid search, and the other parameters by least squares. Uncertainty comes from a moving-block bootstrap (18-year blocks). The shared time constant takes each event&rsquo;s onset year as given. Events whose time constant could not be pinned down were left out of the summaries. An independent methods review checked the data and models; its corrections are included. Code is on <a href="https://github.com/Madaha83/matthewdhanson/tree/master/analysis/records-gap">GitHub</a>.</p>
+    <p><strong>Limitations.</strong> World records are single extreme performances, shaped by individual outliers, doping eras, equipment changes (swimsuits in 2008&ndash;09, running shoes after 2017), and pacing. So some flat ratios reflect a frozen record rather than a limit. The marathon series uses mixed-race records; women-only races give a lower ratio (about 88%). The current women&rsquo;s marathon record holder later received a doping ban based on a separate sample, and the record still stands. Early timing mixed hand and automatic methods. Records change in a few large steps, so curve fits are descriptive and intervals approximate. &ldquo;Years since women&rsquo;s competition began&rdquo; stands in for opportunity and is entangled with professionalization, policy, and investment, none of which is measured directly. The data come from Wikipedia and should be checked against World Athletics and World Aquatics for formal research.</p>
+  </section>
+</div>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="disclaimer">This is a personal website. Views expressed here are my own and do not represent the University of Rhode Island. Descriptions of my earlier work with the U.S. Army and U.S. Navy do not imply their endorsement. Evergreen Assessments LLC is a private business, separate from my university role.</p>
+    <ul>
+      <li><a href="https://scholar.google.com/citations?user=Q8gXnk0AAAAJ&hl=en">Google Scholar</a></li>
+      <li><a href="https://www.linkedin.com/in/matthew-hanson-phd-83102324">LinkedIn</a></li>
+      <li><a href="mailto:matthew.d.hanson@outlook.com">Email</a></li>
+    </ul>
+    <p>&copy; 2026 Matthew D. Hanson &middot; Updated October 2026</p>
+  </div>
+</footer>
+</body>
+</html>

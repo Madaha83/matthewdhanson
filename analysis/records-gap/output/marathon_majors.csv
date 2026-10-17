@@ -1,0 +1,330 @@
+year,M,W,race
+1897,10510.0,,Boston Marathon
+1898,9720.0,,Boston Marathon
+1899,10478.0,,Boston Marathon
+1900,9584.0,,Boston Marathon
+1901,8963.0,,Boston Marathon
+1902,9792.0,,Boston Marathon
+1903,9689.0,,Boston Marathon
+1904,9484.0,,Boston Marathon
+1905,9505.0,,Boston Marathon
+1906,9945.0,,Boston Marathon
+1907,8664.0,,Boston Marathon
+1908,8743.0,,Boston Marathon
+1909,10416.0,,Boston Marathon
+1910,8932.0,,Boston Marathon
+1911,8499.0,,Boston Marathon
+1912,8478.0,,Boston Marathon
+1913,8714.0,,Boston Marathon
+1914,8714.0,,Boston Marathon
+1915,9101.0,,Boston Marathon
+1916,8836.0,,Boston Marathon
+1917,8917.0,,Boston Marathon
+1918,8993.0,,Boston Marathon
+1919,8953.0,,Boston Marathon
+1920,8971.0,,Boston Marathon
+1921,8337.0,,Boston Marathon
+1922,8290.0,,Boston Marathon
+1923,8627.0,,Boston Marathon
+1924,8980.0,,Boston Marathon
+1925,9180.0,,Boston Marathon
+1926,8740.0,,Boston Marathon
+1927,9622.0,,Boston Marathon
+1928,9427.0,,Boston Marathon
+1929,9188.0,,Boston Marathon
+1930,9288.0,,Boston Marathon
+1931,10005.0,,Boston Marathon
+1932,9216.0,,Boston Marathon
+1933,9061.0,,Boston Marathon
+1934,9173.0,,Boston Marathon
+1935,9127.0,,Boston Marathon
+1936,9220.0,,Boston Marathon
+1937,9200.0,,Boston Marathon
+1938,9334.0,,Boston Marathon
+1939,8931.0,,Boston Marathon
+1940,8908.0,,Boston Marathon
+1941,9038.0,,Boston Marathon
+1942,8811.0,,Boston Marathon
+1943,8905.0,,Boston Marathon
+1944,9110.0,,Boston Marathon
+1945,9040.0,,Boston Marathon
+1946,8967.0,,Boston Marathon
+1947,8739.0,,Boston Marathon
+1948,9062.0,,Boston Marathon
+1949,9110.0,,Boston Marathon
+1950,9159.0,,Boston Marathon
+1951,8865.0,,Boston Marathon
+1952,9113.0,,Boston Marathon
+1953,8331.0,,Boston Marathon
+1954,8439.0,,Boston Marathon
+1955,8302.0,,Boston Marathon
+1956,8054.0,,Boston Marathon
+1957,8405.0,,Boston Marathon
+1958,8754.0,,Boston Marathon
+1959,8562.0,,Boston Marathon
+1960,8454.0,,Boston Marathon
+1961,8619.0,,Boston Marathon
+1962,8628.0,,Boston Marathon
+1963,8338.0,,Boston Marathon
+1964,8399.0,,Boston Marathon
+1965,8193.0,,Boston Marathon
+1966,8231.0,12100.0,Boston Marathon
+1967,8145.0,12437.0,Boston Marathon
+1968,8537.0,12600.0,Boston Marathon
+1969,8029.0,12166.0,Boston Marathon
+1970,7830.0,11107.0,Boston Marathon
+1971,8325.0,11310.0,Boston Marathon
+1972,8139.0,11426.0,Boston Marathon
+1973,8163.0,11159.0,Boston Marathon
+1974,8019.0,10031.0,Boston Marathon
+1975,7795.0,9744.0,Boston Marathon
+1976,8419.0,10030.0,Boston Marathon
+1977,8086.0,10113.0,Boston Marathon
+1978,7813.0,9892.0,Boston Marathon
+1979,7767.0,9315.0,Boston Marathon
+1980,7931.0,9268.0,Boston Marathon
+1981,7766.0,8806.0,Boston Marathon
+1982,7732.0,8973.0,Boston Marathon
+1983,7740.0,8563.0,Boston Marathon
+1984,7834.0,8968.0,Boston Marathon
+1985,8045.0,9246.0,Boston Marathon
+1986,7671.0,8695.0,Boston Marathon
+1987,7910.0,8721.0,Boston Marathon
+1988,7723.0,8670.0,Boston Marathon
+1989,7746.0,8673.0,Boston Marathon
+1990,7699.0,8724.0,Boston Marathon
+1991,7866.0,8658.0,Boston Marathon
+1992,7694.0,8623.0,Boston Marathon
+1993,7773.0,8727.0,Boston Marathon
+1994,7635.0,8505.0,Boston Marathon
+1995,7762.0,8711.0,Boston Marathon
+1996,7755.0,8832.0,Boston Marathon
+1997,7834.0,8783.0,Boston Marathon
+1998,7654.0,8601.0,Boston Marathon
+1999,7792.0,8605.0,Boston Marathon
+2000,7787.0,8771.0,Boston Marathon
+2001,7783.0,8633.0,Boston Marathon
+2002,7742.0,8443.0,Boston Marathon
+2003,7811.0,8719.0,Boston Marathon
+2004,7837.0,8667.0,Boston Marathon
+2005,7904.0,8712.0,Boston Marathon
+2006,7634.0,8618.0,Boston Marathon
+2007,8053.0,8958.0,Boston Marathon
+2008,7665.0,8725.0,Boston Marathon
+2009,7722.0,9136.0,Boston Marathon
+2010,7552.0,8771.0,Boston Marathon
+2011,7382.0,8556.0,Boston Marathon
+2012,7960.0,9110.0,Boston Marathon
+2013,7822.0,8785.0,Boston Marathon
+2014,7717.0,8399.0,Boston Marathon
+2015,7757.0,8695.0,Boston Marathon
+2016,7965.0,8959.0,Boston Marathon
+2017,7777.0,8512.0,Boston Marathon
+2018,8158.0,9594.0,Boston Marathon
+2019,7677.0,8611.0,Boston Marathon
+2021,7791.0,8709.0,Boston Marathon
+2022,7611.0,8461.0,Boston Marathon
+2023,7554.0,8498.0,Boston Marathon
+2024,7577.0,8557.0,Boston Marathon
+2025,7485.0,8242.0,Boston Marathon
+2026,7310.0,8331.0,Boston Marathon
+1970,9098.0,,New York City Marathon
+1971,8574.0,10522.0,New York City Marathon
+1972,8872.0,11321.0,New York City Marathon
+1973,8514.0,10627.0,New York City Marathon
+1974,8790.0,11249.0,New York City Marathon
+1975,8367.0,9974.0,New York City Marathon
+1976,7810.0,9551.0,New York City Marathon
+1977,7888.0,9790.0,New York City Marathon
+1978,7932.0,9150.0,New York City Marathon
+1979,7902.0,8853.0,New York City Marathon
+1980,7781.0,8742.0,New York City Marathon
+1981,7693.0,8729.0,New York City Marathon
+1982,7769.0,8834.0,New York City Marathon
+1983,7739.0,8820.0,New York City Marathon
+1984,8093.0,8970.0,New York City Marathon
+1985,7894.0,8914.0,New York City Marathon
+1986,7866.0,8886.0,New York City Marathon
+1987,7861.0,9017.0,New York City Marathon
+1988,7700.0,8887.0,New York City Marathon
+1989,7681.0,8730.0,New York City Marathon
+1990,7959.0,9045.0,New York City Marathon
+1991,7768.0,8852.0,New York City Marathon
+1992,7769.0,8680.0,New York City Marathon
+1993,7804.0,8784.0,New York City Marathon
+1994,7881.0,8857.0,New York City Marathon
+1995,7860.0,8886.0,New York City Marathon
+1996,7794.0,8898.0,New York City Marathon
+1997,7692.0,8923.0,New York City Marathon
+1998,7725.0,8717.0,New York City Marathon
+1999,7754.0,8706.0,New York City Marathon
+2000,7809.0,8745.0,New York City Marathon
+2001,7663.0,8661.0,New York City Marathon
+2002,7687.0,8756.0,New York City Marathon
+2003,7830.0,8551.0,New York City Marathon
+2004,7768.0,8590.0,New York City Marathon
+2005,7770.0,8681.0,New York City Marathon
+2006,7798.0,8705.0,New York City Marathon
+2007,7744.0,8589.0,New York City Marathon
+2008,7723.0,8636.0,New York City Marathon
+2009,7755.0,8932.0,New York City Marathon
+2010,7694.0,8900.0,New York City Marathon
+2011,7506.0,8595.0,New York City Marathon
+2013,7704.0,8707.0,New York City Marathon
+2014,7859.0,8707.0,New York City Marathon
+2015,7834.0,8665.0,New York City Marathon
+2016,7671.0,8666.0,New York City Marathon
+2017,7853.0,8813.0,New York City Marathon
+2018,7559.0,8568.0,New York City Marathon
+2019,7693.0,8558.0,New York City Marathon
+2020,8628.0,9328.0,New York City Marathon
+2021,7702.0,8559.0,New York City Marathon
+2022,7721.0,8603.0,New York City Marathon
+2023,7498.0,8843.0,New York City Marathon
+2024,7659.0,8675.0,New York City Marathon
+2025,7689.0,8391.0,New York City Marathon
+1977,8272.0,10247.0,Chicago Marathon
+1978,8360.0,10765.0,Chicago Marathon
+1979,8600.0,11745.0,Chicago Marathon
+1980,8044.0,9903.0,Chicago Marathon
+1981,8173.0,10179.0,Chicago Marathon
+1982,7859.0,9203.0,Chicago Marathon
+1983,7784.0,9072.0,Chicago Marathon
+1984,7685.0,8761.0,Chicago Marathon
+1985,7633.0,8481.0,Chicago Marathon
+1986,7707.0,8828.0,Chicago Marathon
+1988,7737.0,8957.0,Chicago Marathon
+1989,7885.0,8895.0,Chicago Marathon
+1990,7781.0,9011.0,Chicago Marathon
+1991,8073.0,9381.0,Chicago Marathon
+1992,8174.0,9461.0,Chicago Marathon
+1993,7994.0,9198.0,Chicago Marathon
+1994,7876.0,9094.0,Chicago Marathon
+1995,7878.0,8907.0,Chicago Marathon
+1996,7732.0,9041.0,Chicago Marathon
+1997,7630.0,8943.0,Chicago Marathon
+1998,7614.0,8637.0,Chicago Marathon
+1999,7542.0,8759.0,Chicago Marathon
+2000,7621.0,8493.0,Chicago Marathon
+2001,7732.0,8327.0,Chicago Marathon
+2002,7556.0,8238.0,Chicago Marathon
+2003,7550.0,8587.0,Chicago Marathon
+2004,7576.0,8625.0,Chicago Marathon
+2005,7622.0,8485.0,Chicago Marathon
+2006,7655.0,8442.0,Chicago Marathon
+2007,7871.0,9229.0,Chicago Marathon
+2008,7585.0,8837.0,Chicago Marathon
+2009,7541.0,8791.0,Chicago Marathon
+2010,7583.0,8620.0,Chicago Marathon
+2011,7537.0,8529.0,Chicago Marathon
+2012,7478.0,8523.0,Chicago Marathon
+2013,7425.0,8397.0,Chicago Marathon
+2014,7451.0,8737.0,Chicago Marathon
+2015,7765.0,8613.0,Chicago Marathon
+2016,7883.0,8492.0,Chicago Marathon
+2017,7760.0,8311.0,Chicago Marathon
+2018,7511.0,8315.0,Chicago Marathon
+2019,7545.0,8044.0,Chicago Marathon
+2021,7572.0,8551.0,Chicago Marathon
+2022,7464.0,8058.0,Chicago Marathon
+2023,7235.0,8024.0,Chicago Marathon
+2024,7363.0,7796.0,Chicago Marathon
+2025,7343.0,8096.0,Chicago Marathon
+2026,7269.0,8013.0,Chicago Marathon
+1981,7908.0,8997.0,London Marathon
+1982,7764.0,8983.0,London Marathon
+1983,7783.0,8729.0,London Marathon
+1984,7797.0,8666.0,London Marathon
+1985,7696.0,8466.0,London Marathon
+1986,7802.0,8694.0,London Marathon
+1987,7790.0,8568.0,London Marathon
+1988,7820.0,8741.0,London Marathon
+1989,7743.0,8756.0,London Marathon
+1990,7810.0,8791.0,London Marathon
+1991,7757.0,8774.0,London Marathon
+1992,7802.0,8979.0,London Marathon
+1993,7850.0,8829.0,London Marathon
+1994,7733.0,9154.0,London Marathon
+1995,7710.0,8863.0,London Marathon
+1996,7800.0,8874.0,London Marathon
+1997,7675.0,8811.0,London Marathon
+1998,7677.0,8786.0,London Marathon
+1999,7677.0,8602.0,London Marathon
+2000,7596.0,8673.0,London Marathon
+2001,7629.0,8637.0,London Marathon
+2002,7538.0,8336.0,London Marathon
+2003,7676.0,8125.0,London Marathon
+2004,7578.0,8555.0,London Marathon
+2005,7655.0,8262.0,London Marathon
+2006,7599.0,8375.0,London Marathon
+2007,7661.0,8438.0,London Marathon
+2008,7515.0,8654.0,London Marathon
+2009,7510.0,8531.0,London Marathon
+2010,7519.0,8558.0,London Marathon
+2011,7480.0,8359.0,London Marathon
+2012,7484.0,8317.0,London Marathon
+2013,7564.0,8415.0,London Marathon
+2014,7469.0,8421.0,London Marathon
+2015,7482.0,8601.0,London Marathon
+2016,7385.0,8578.0,London Marathon
+2017,7548.0,8221.0,London Marathon
+2018,7457.0,8311.0,London Marathon
+2019,7357.0,8300.0,London Marathon
+2020,7558.0,8338.0,London Marathon
+2021,7441.0,8263.0,London Marathon
+2022,7479.0,8246.0,London Marathon
+2023,7285.0,8313.0,London Marathon
+2024,7441.0,8176.0,London Marathon
+2025,7347.0,8150.0,London Marathon
+2026,7170.0,8141.0,London Marathon
+1974,9893.0,12121.0,Berlin Marathon
+1975,10028.0,10755.0,Berlin Marathon
+1976,8588.0,11119.0,Berlin Marathon
+1977,8119.0,9288.0,Berlin Marathon
+1978,8403.0,10629.0,Berlin Marathon
+1979,8469.0,11227.0,Berlin Marathon
+1980,8208.0,10038.0,Berlin Marathon
+1981,8142.0,10044.0,Berlin Marathon
+1982,8087.0,10025.0,Berlin Marathon
+1983,8017.0,9632.0,Berlin Marathon
+1984,8015.0,9572.0,Berlin Marathon
+1985,7903.0,9250.0,Berlin Marathon
+1986,7863.0,9130.0,Berlin Marathon
+1987,7871.0,9082.0,Berlin Marathon
+1988,7905.0,8956.0,Berlin Marathon
+1989,7811.0,8925.0,Berlin Marathon
+1990,7696.0,8917.0,Berlin Marathon
+1991,7857.0,8856.0,Berlin Marathon
+1992,7687.0,9022.0,Berlin Marathon
+1993,7857.0,8780.0,Berlin Marathon
+1994,7711.0,8715.0,Berlin Marathon
+1995,7622.0,8737.0,Berlin Marathon
+1996,7755.0,8795.0,Berlin Marathon
+1997,7661.0,8624.0,Berlin Marathon
+1998,7565.0,8722.0,Berlin Marathon
+1999,7604.0,8443.0,Berlin Marathon
+2000,7662.0,8775.0,Berlin Marathon
+2001,7727.0,8386.0,Berlin Marathon
+2002,7607.0,8509.0,Berlin Marathon
+2003,7495.0,8792.0,Berlin Marathon
+2004,7604.0,8381.0,Berlin Marathon
+2005,7661.0,8352.0,Berlin Marathon
+2006,7556.0,8494.0,Berlin Marathon
+2007,7466.0,8597.0,Berlin Marathon
+2008,7439.0,8359.0,Berlin Marathon
+2009,7568.0,8687.0,Berlin Marathon
+2010,7508.0,8638.0,Berlin Marathon
+2011,7418.0,8384.0,Berlin Marathon
+2012,7455.0,8430.0,Berlin Marathon
+2013,7403.0,8473.0,Berlin Marathon
+2014,7377.0,8418.0,Berlin Marathon
+2015,7440.0,8365.0,Berlin Marathon
+2016,7383.0,8445.0,Berlin Marathon
+2017,7412.0,8423.0,Berlin Marathon
+2018,7299.0,8291.0,Berlin Marathon
+2019,7301.0,8414.0,Berlin Marathon
+2021,7545.0,8409.0,Berlin Marathon
+2022,7269.0,8137.0,Berlin Marathon
+2023,7362.0,7913.0,Berlin Marathon
+2024,7397.0,8202.0,Berlin Marathon
+2025,7336.0,8465.0,Berlin Marathon

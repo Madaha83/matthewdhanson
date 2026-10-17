@@ -526,3 +526,19 @@ details.more-pubs > summary {
 .feature-card .go { display: inline-block; margin-top: 1rem; color: var(--accent); font-weight: 500; }
 .feature-card:hover { border-color: var(--accent); border-left-color: var(--terra); color: var(--ink); }
 @media (prefers-reduced-motion: no-preference) { .feature-card:hover { transform: translateY(-2px); } }
+
+/* Shared chart additions: reference series, dashed lines, whiskers */
+:root { --c-ref: #8A8172; }
+.chart .s-ref { stroke: var(--c-ref); } .chart .dot.s-ref { fill: var(--c-ref); }
+.key.s-ref, .chart-tip .key.s-ref { color: var(--c-ref); }
+.chart .line.dashed { stroke-dasharray: 6 5; }
+.chart .ref { stroke: var(--ink-2); stroke-width: 1; stroke-dasharray: 2 4; }
+.chart .ref-label { fill: var(--ink-2); font-style: italic; }
+.chart .whisker { stroke-width: 2; stroke-linecap: round; opacity: .55; }
+.chart .whisker.s-men { stroke: var(--c-men); } .chart .whisker.s-ochre { stroke: var(--c-ochre); }
+.chart-tip .tip-note { color: var(--ink-2); margin-top: .2rem; }
+.ev-summary { margin-top: .75rem; font-size: .9375rem; color: var(--ink-2); }
+.chart .connector { stroke: var(--rule-ui); stroke-width: 2; }
+.chart .grid line.zero { stroke: var(--ink-2); }
+
+.feature-stack { display: grid; gap: 1.25rem; }
