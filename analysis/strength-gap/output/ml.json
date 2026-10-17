@@ -1,0 +1,207 @@
+{
+ "n_train": 485871,
+ "n_test": 121208,
+ "mean_model": {
+  "r2": 0.686,
+  "mae_pct": 12.3,
+  "iters": 400
+ },
+ "elite_model": {
+  "pinball": 0.0135,
+  "coverage": 0.941,
+  "iters": 374
+ },
+ "baseline_r2": 0.589,
+ "perm_importance": [
+  {
+   "feature": "Sex & bodyweight",
+   "drop_r2": 0.9575
+  },
+  {
+   "feature": "Age",
+   "drop_r2": 0.2464
+  },
+  {
+   "feature": "Experience (years, meets)",
+   "drop_r2": 0.1523
+  },
+  {
+   "feature": "Country",
+   "drop_r2": 0.0264
+  },
+  {
+   "feature": "Calendar year",
+   "drop_r2": 0.0168
+  },
+  {
+   "feature": "Field (size, women's share)",
+   "drop_r2": 0.0142
+  }
+ ],
+ "shap_mean_abs": [
+  {
+   "feature": "Bodyweight",
+   "value": 0.4084
+  },
+  {
+   "feature": "Calendar year",
+   "value": 0.1927
+  },
+  {
+   "feature": "Age",
+   "value": 0.1924
+  },
+  {
+   "feature": "Years competing",
+   "value": 0.0953
+  },
+  {
+   "feature": "Sex (female)",
+   "value": 0.0752
+  },
+  {
+   "feature": "Women's share of field",
+   "value": 0.0473
+  },
+  {
+   "feature": "Meets completed",
+   "value": 0.0344
+  },
+  {
+   "feature": "Same-sex field size",
+   "value": 0.0241
+  },
+  {
+   "feature": "Country",
+   "value": 0.0061
+  }
+ ],
+ "adjusted_by_year": [
+  {
+   "year": 2012,
+   "typical": 0.6469,
+   "typical_f": 16.87,
+   "typical_m": 26.07,
+   "elite": 0.6768,
+   "elite_f": 21.63,
+   "elite_m": 31.95
+  },
+  {
+   "year": 2013,
+   "typical": 0.6508,
+   "typical_f": 17.02,
+   "typical_m": 26.15,
+   "elite": 0.6828,
+   "elite_f": 21.88,
+   "elite_m": 32.05
+  },
+  {
+   "year": 2014,
+   "typical": 0.6581,
+   "typical_f": 17.27,
+   "typical_m": 26.25,
+   "elite": 0.6832,
+   "elite_f": 21.92,
+   "elite_m": 32.09
+  },
+  {
+   "year": 2015,
+   "typical": 0.6613,
+   "typical_f": 17.46,
+   "typical_m": 26.4,
+   "elite": 0.6865,
+   "elite_f": 22.08,
+   "elite_m": 32.16
+  },
+  {
+   "year": 2016,
+   "typical": 0.6647,
+   "typical_f": 17.54,
+   "typical_m": 26.38,
+   "elite": 0.6894,
+   "elite_f": 22.17,
+   "elite_m": 32.16
+  },
+  {
+   "year": 2017,
+   "typical": 0.6656,
+   "typical_f": 17.56,
+   "typical_m": 26.39,
+   "elite": 0.6927,
+   "elite_f": 22.28,
+   "elite_m": 32.17
+  },
+  {
+   "year": 2018,
+   "typical": 0.6685,
+   "typical_f": 17.63,
+   "typical_m": 26.37,
+   "elite": 0.6941,
+   "elite_f": 22.33,
+   "elite_m": 32.17
+  },
+  {
+   "year": 2019,
+   "typical": 0.6713,
+   "typical_f": 17.7,
+   "typical_m": 26.37,
+   "elite": 0.6972,
+   "elite_f": 22.44,
+   "elite_m": 32.19
+  },
+  {
+   "year": 2020,
+   "typical": 0.6771,
+   "typical_f": 17.87,
+   "typical_m": 26.39,
+   "elite": 0.7056,
+   "elite_f": 22.78,
+   "elite_m": 32.29
+  },
+  {
+   "year": 2021,
+   "typical": 0.6767,
+   "typical_f": 18.13,
+   "typical_m": 26.8,
+   "elite": 0.7077,
+   "elite_f": 23.21,
+   "elite_m": 32.79
+  },
+  {
+   "year": 2022,
+   "typical": 0.6765,
+   "typical_f": 18.22,
+   "typical_m": 26.94,
+   "elite": 0.708,
+   "elite_f": 23.27,
+   "elite_m": 32.87
+  },
+  {
+   "year": 2023,
+   "typical": 0.6785,
+   "typical_f": 18.41,
+   "typical_m": 27.13,
+   "elite": 0.7078,
+   "elite_f": 23.34,
+   "elite_m": 32.98
+  },
+  {
+   "year": 2024,
+   "typical": 0.6805,
+   "typical_f": 18.51,
+   "typical_m": 27.19,
+   "elite": 0.7082,
+   "elite_f": 23.49,
+   "elite_m": 33.17
+  },
+  {
+   "year": 2025,
+   "typical": 0.6804,
+   "typical_f": 18.51,
+   "typical_m": 27.21,
+   "elite": 0.7081,
+   "elite_f": 23.56,
+   "elite_m": 33.27
+  }
+ ]
+}
