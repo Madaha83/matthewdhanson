@@ -542,3 +542,19 @@ details.more-pubs > summary {
 .chart .grid line.zero { stroke: var(--ink-2); }
 
 .feature-stack { display: grid; gap: 1.25rem; }
+
+/* ── URI section (home) and agenda (research) ── */
+.uri-grid { display: grid; gap: 1.25rem; margin-top: 1.75rem; }
+@media (min-width: 760px) { .uri-grid { grid-template-columns: repeat(3, 1fr); } }
+.uri-item { border-top: 2px solid var(--accent); padding-top: 1rem; }
+.uri-item h3 { font-size: 1.1875rem; }
+.uri-item p { color: var(--ink-2); margin-top: .5rem; font-size: 1rem; }
+.uri-item .more { display: inline-block; margin-top: .75rem; font-weight: 500; font-size: .9375rem; }
+.uri-note { margin-top: 1.25rem; padding-left: 1rem; border-left: 2px solid var(--accent); color: var(--ink); font-size: 1rem; }
+.uri-note .eyebrow { color: var(--accent); margin-right: .4rem; }
+.uri-agenda { margin-top: 4rem; padding: 2rem; background: var(--tint); border-radius: 4px; }
+.uri-agenda h2 { margin: .5rem 0 1rem; }
+.uri-agenda .eyebrow { color: var(--accent); }
+.agenda { margin: 1rem 0; padding-left: 1.25rem; }
+.agenda li + li { margin-top: .6rem; }
+.agenda li::marker { font-family: var(--serif); color: var(--accent); }
