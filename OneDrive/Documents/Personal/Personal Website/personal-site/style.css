@@ -562,3 +562,27 @@ details.more-pubs > summary {
 .lab { margin: 1.5rem 0; padding: 1.25rem 1.25rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; }
 .lab h3 { font-size: 1.25rem; }
 .lab p { margin-top: .6rem; font-size: 1rem; }
+
+/* ── ANCHOR Lab application form ── */
+.lab-form { margin-top: 1.5rem; display: grid; gap: 1.25rem; }
+.lab-form .hp { position: absolute; left: -9999px; }
+.field-row { display: grid; gap: 1.25rem; }
+@media (min-width: 640px) { .field-row { grid-template-columns: 1fr 1fr; } }
+.field { display: grid; gap: .4rem; border: 0; padding: 0; margin: 0; min-width: 0; }
+.field > label, .field > legend { font-weight: 600; font-size: .9375rem; color: var(--ink); padding: 0; }
+.field .req { font: 500 .75rem/1 var(--sans); color: var(--ink-2); text-transform: uppercase; letter-spacing: .06em; margin-left: .35rem; }
+.field .hint, .lab-form .hint { font-size: .875rem; color: var(--ink-2); font-weight: 400; }
+.lab-form input[type=text], .lab-form input[type=email], .lab-form select, .lab-form textarea {
+  font: inherit; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--rule-ui); border-radius: 3px; padding: .65rem .75rem; min-height: 44px; width: 100%;
+}
+.lab-form textarea { resize: vertical; }
+.lab-form input:focus-visible, .lab-form select:focus-visible, .lab-form textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.lab-form input:user-invalid, .lab-form select:user-invalid, .lab-form textarea:user-invalid { border-color: var(--terra); }
+.opts { display: grid; gap: .5rem; margin-top: .25rem; }
+@media (min-width: 640px) { .opts { grid-template-columns: 1fr 1fr; } }
+.opt { display: flex; gap: .6rem; align-items: flex-start; font-size: 1rem; cursor: pointer; }
+.opt input { width: 1.1rem; height: 1.1rem; margin-top: .25rem; accent-color: var(--accent); flex: none; }
+.consent { font-size: .9375rem; color: var(--ink-2); }
+.lab-form button { justify-self: start; cursor: pointer; font-family: var(--sans); }
+.field-row .opts { grid-template-columns: 1fr; }
