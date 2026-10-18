@@ -1,4 +1,10 @@
 // Small progressive enhancements. The site works without this file.
+
+// Plausible analytics setup (kept here instead of inline so the CSP needs no 'unsafe-inline').
+window.plausible = window.plausible || function () { (plausible.q = plausible.q || []).push(arguments); };
+plausible.init = plausible.init || function (i) { plausible.o = i || {}; };
+plausible.init();
+
 document.documentElement.classList.add("js");
 
 document.addEventListener("DOMContentLoaded", function () {

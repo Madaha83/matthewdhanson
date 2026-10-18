@@ -47,7 +47,9 @@ def head(title, desc, path, extra=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap">
 <link rel="stylesheet" href="style.css">
-<script src="site.js"></script>{extra}
+<script src="site.js"></script>
+<!-- Privacy-friendly analytics by Plausible (setup line lives in site.js) -->
+<script async src="https://plausible.io/js/pa-MYBDO4ji5DJVwsf6XDhP9.js"></script>{extra}
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
