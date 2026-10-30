@@ -54,3 +54,21 @@
   from = "/blog.html"
   to = "/"
   status = 301
+
+# ANCHOR Lab moved to its own site
+[[redirects]]
+  from = "/anchor"
+  to = "https://anchorlab.science/join"
+  status = 301
+[[redirects]]
+  from = "/anchor.html"
+  to = "https://anchorlab.science/join"
+  status = 301
+[[redirects]]
+  from = "/anchor-thanks"
+  to = "https://anchorlab.science/join"
+  status = 301
+[[redirects]]
+  from = "/anchor-thanks.html"
+  to = "https://anchorlab.science/join"
+  status = 301

@@ -103,7 +103,7 @@ def contact_band():
     <dl class="contact-list">
       <div><dt>Email</dt><dd><a class="big" href="mailto:{EMAIL}">{EMAIL}</a></dd></div>
       <div><dt>Faculty</dt><dd>College of Business, University of Rhode Island<br>Kingston, RI</dd></div>
-      <div><dt>Students</dt><dd>Interested in the ANCHOR Lab? <a href="anchor.html">Apply to join</a>.</dd></div>
+      <div><dt>Students</dt><dd>Interested in the ANCHOR Lab? <a href="https://anchorlab.science/join">Apply to join</a>.</dd></div>
       <div><dt>Profiles</dt><dd><a href="{SCHOLAR}">Google Scholar</a> &middot; <a href="{LINKEDIN}">LinkedIn</a></dd></div>
     </dl>
   </div>
@@ -306,8 +306,8 @@ home = head("Matthew D. Hanson, Ph.D. · Industrial-Organizational Psychologist"
       <div class="uri-grid">
         <article class="uri-item">
           <h3>The ANCHOR Lab</h3>
-          <p>My research lab studies assessment, psychological needs, competencies, and resilience in people and organizations. URI students join through MGT 491 (Directed Study).</p>
-          <a class="more" href="anchor.html">Join the lab &rarr;</a>
+          <p>My research lab studies fair assessment, leadership, motivation and recovery, and workplace learning. URI students join through MGT 491 (Directed Study).</p>
+          <a class="more" href="https://anchorlab.science">Visit the lab &rarr;</a>
         </article>
         <article class="uri-item">
           <h3>Teaching</h3>
@@ -554,8 +554,8 @@ research = head("Research · Matthew D. Hanson, Ph.D.",
         </ol>
         <div class="lab" id="anchor">
           <h3>The ANCHOR Lab</h3>
-          <p>This work happens in the ANCHOR Lab, which studies assessment, psychological needs, competencies, and resilience in people and organizations. Undergraduate and graduate students take part in real projects, from study design to analysis, and URI students can join for credit through MGT 491 (Directed Study).</p>
-          <p><a class="btn btn-secondary" href="anchor.html">Apply to join the lab &rarr;</a></p>
+          <p>This work happens in the ANCHOR Lab, which studies fair assessment, leadership, motivation and recovery, and workplace learning. Undergraduate and graduate students take part in real projects, from study design to analysis, and URI students can join for credit through MGT 491 (Directed Study).</p>
+          <p><a class="btn btn-secondary" href="https://anchorlab.science">Visit the ANCHOR Lab website &rarr;</a> <a class="btn btn-secondary" href="https://anchorlab.science/join">Apply to join</a></p>
           <p>I also co-direct the <strong>College of Business Behavioral Lab</strong> in URI&rsquo;s Coastal Institute, a shared facility for experimental and survey research.</p>
         </div>
         <p>I&rsquo;m especially interested in partnerships with Rhode Island employers in defense, healthcare, manufacturing, and the public sector. The <a href="strength.html">strength-gap</a> and <a href="records.html">world-records</a> analyses are examples of the data-science side of this work.</p>
@@ -785,151 +785,5 @@ cv = head("CV · Matthew D. Hanson, Ph.D.",
 write("cv.html", cv)
 
 
-# ───────────────────────── Join the ANCHOR Lab ─────────────────────────
-def options(name, items, kind="checkbox", required=False):
-    req = " required" if required and kind == "radio" else ""
-    return "\n".join(
-        f'          <label class="opt"><input type="{kind}" name="{name}" value="{html.escape(v)}"{req}> <span>{t}</span></label>'
-        for v, t in items)
+# The ANCHOR Lab application now lives at https://anchorlab.science/join (old /anchor URLs redirect there).
 
-
-join = head("Join the ANCHOR Lab · Matthew D. Hanson, Ph.D.",
-            "Apply to join the ANCHOR Lab at the University of Rhode Island: undergraduate and graduate research on assessment, motivation, training, and well-being at work.",
-            "anchor") + header("research") + f"""
-<main id="main">
-<section class="page-intro">
-  <div class="wrap essay-head">
-    <p class="eyebrow">University of Rhode Island &middot; College of Business</p>
-    <h1>Join the ANCHOR Lab</h1>
-    <p class="lede">The ANCHOR Lab studies assessment, psychological needs, competencies, and resilience in people and organizations. Students work on real research projects, from designing studies to analyzing data.</p>
-  </div>
-</section>
-
-<div class="wrap essay">
-  <section class="essay-section" aria-labelledby="what-h">
-    <h2 id="what-h">What lab members do</h2>
-    <ul>
-      <li>Help design surveys, experiments, and assessments on topics like leadership, motivation, burnout, and training</li>
-      <li>Collect and manage data, including studies run in the College of Business Behavioral Lab at the Coastal Institute</li>
-      <li>Learn to analyze data in R or SPSS, and help write up results for conferences and journals</li>
-      <li>Meet regularly with Dr. Hanson and other lab members to discuss research</li>
-    </ul>
-    <p>URI students can join for course credit through <strong>MGT 491 (Directed Study)</strong> or as volunteers. No prior research experience is needed; curiosity, reliability, and attention to detail matter most. Graduate students interested in research collaboration are welcome to apply too.</p>
-  </section>
-
-  <section class="essay-section" aria-labelledby="apply-h">
-    <h2 id="apply-h">Apply</h2>
-    <p class="muted">The form takes about five minutes. I review applications on a rolling basis and will reply by email.</p>
-
-    <form class="lab-form" name="anchor-lab-application" method="POST" action="anchor-thanks.html"
-          data-netlify="true" netlify-honeypot="company">
-      <input type="hidden" name="form-name" value="anchor-lab-application">
-      <p class="hp" aria-hidden="true"><label>Leave this empty: <input name="company" tabindex="-1" autocomplete="off"></label></p>
-
-      <div class="field-row">
-        <div class="field">
-          <label for="f-name">Full name <span class="req">required</span></label>
-          <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="120">
-        </div>
-        <div class="field">
-          <label for="f-email">URI email <span class="req">required</span></label>
-          <input id="f-email" name="email" type="email" autocomplete="email" required
-                 pattern="[^@\\s]+@(my\\.)?uri\\.edu" title="Please use your @uri.edu or @my.uri.edu address" placeholder="name@uri.edu">
-        </div>
-      </div>
-
-      <div class="field-row">
-        <div class="field">
-          <label for="f-level">Program level <span class="req">required</span></label>
-          <select id="f-level" name="level" required>
-            <option value="">Choose one</option>
-            <option>Undergraduate</option>
-            <option>Master&rsquo;s or MBA</option>
-            <option>Doctoral</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="f-major">Major or program <span class="req">required</span></label>
-          <input id="f-major" name="major" type="text" required maxlength="120" placeholder="e.g., Management, Psychology">
-        </div>
-      </div>
-
-      <div class="field-row">
-        <div class="field">
-          <label for="f-grad">Expected graduation</label>
-          <input id="f-grad" name="graduation" type="text" maxlength="40" placeholder="e.g., May 2028">
-        </div>
-        <div class="field">
-          <label for="f-start">When would you like to start? <span class="req">required</span></label>
-          <select id="f-start" name="start" required>
-            <option value="">Choose one</option>
-            <option>Spring 2027</option>
-            <option>Summer 2027</option>
-            <option>Fall 2027</option>
-            <option>As soon as possible</option>
-          </select>
-        </div>
-      </div>
-
-      <fieldset class="field">
-        <legend>Which topics interest you? <span class="hint">Choose any</span></legend>
-        <div class="opts">
-{options("interests", [("Assessment and measurement", "Assessment &amp; measurement"), ("Leadership", "Leadership"), ("Motivation, needs, and well-being", "Motivation, needs &amp; well-being"), ("Training and learning", "Training &amp; learning"), ("AI and data science", "AI &amp; data science"), ("Not sure yet", "Not sure yet")])}
-        </div>
-      </fieldset>
-
-      <div class="field-row">
-        <fieldset class="field">
-          <legend>How would you like to participate? <span class="req">required</span></legend>
-          <div class="opts">
-{options("participation", [("For credit (MGT 491)", "For credit (MGT 491 Directed Study)"), ("Volunteer", "Volunteer"), ("Either", "Either")], kind="radio", required=True)}
-          </div>
-        </fieldset>
-        <div class="field">
-          <label for="f-hours">Hours per week you can commit <span class="req">required</span></label>
-          <select id="f-hours" name="hours" required>
-            <option value="">Choose one</option>
-            <option>3&ndash;5</option>
-            <option>6&ndash;9</option>
-            <option>10 or more</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="field">
-        <label for="f-why">Why are you interested in the lab? <span class="req">required</span></label>
-        <textarea id="f-why" name="why" rows="5" required maxlength="1500" aria-describedby="f-why-hint"></textarea>
-        <p class="hint" id="f-why-hint">A few sentences is plenty: what draws you to this research and what you hope to get out of it.</p>
-      </div>
-
-      <div class="field">
-        <label for="f-exp">Relevant courses, skills, or experience</label>
-        <textarea id="f-exp" name="experience" rows="3" maxlength="1000" placeholder="e.g., statistics or research methods courses, Excel, R or SPSS, survey design, writing"></textarea>
-      </div>
-
-      <label class="opt consent"><input type="checkbox" name="consent" value="yes" required>
-        <span>I understand my responses will be used only to consider my application to the ANCHOR Lab.</span></label>
-
-      <button class="btn btn-primary" type="submit">Submit application</button>
-    </form>
-  </section>
-</div>
-</main>
-""" + FOOTER
-write("anchor.html", join)
-
-thanks = head("Application received · ANCHOR Lab", "Thanks for applying to the ANCHOR Lab.", "anchor-thanks",
-              '\n<meta name="robots" content="noindex">') + header("research") + f"""
-<main id="main">
-<section class="page-intro">
-  <div class="wrap essay-head">
-    <p class="eyebrow">ANCHOR Lab</p>
-    <h1>Thanks for applying!</h1>
-    <p class="lede">Your application was received. I review applications on a rolling basis and will follow up by email, usually within two weeks. Questions in the meantime? Email <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
-    <div class="btn-row"><a class="btn btn-secondary" href="research.html">Back to research</a></div>
-  </div>
-</section>
-</main>
-""" + FOOTER
-write("anchor-thanks.html", thanks)
