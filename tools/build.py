@@ -144,8 +144,6 @@ REPORTS = [
 ]
 REVIEW = [
     dict(authors="Hanson, M. D., Randall, J. G., & Banfi, J. T.", title="Practice, label, or placebo? An experimental test of mindfulness effects in organizational training"),
-    dict(authors="Hanson, M. D., Randall, J. G., & Banfi, J. T.", title="Basic psychological need satisfaction across life domains: Implications for work recovery and well-being"),
-    dict(authors="Hanson, M. D., & Hong, P. Y.", title="Brief focused-attention and open-monitoring mindfulness meditation: A randomized controlled experiment on mindfulness, anxiety, affect, and attention"),
     dict(authors="Hong, P. Y., Hanson, M. D., Lishner, D. A., Kelso, S., & Steinert, S.", title="A randomized field experiment examining the effect of mindfulness on children&rsquo;s, parents&rsquo;, and teachers&rsquo; ratings of children&rsquo;s mood and behavior"),
 ]
 TALKS = [
@@ -306,7 +304,7 @@ home = head("Matthew D. Hanson, Ph.D. · Industrial-Organizational Psychologist"
       <div class="uri-grid">
         <article class="uri-item">
           <h3>The ANCHOR Lab</h3>
-          <p>My research lab studies fair assessment, leadership, motivation and recovery, and workplace learning. URI students join through MGT 491 (Directed Study).</p>
+          <p>My research lab studies fair assessment, leadership, motivation and recovery, and workplace learning. URI students join for credit through MGT 491/492 (Directed Study) or as volunteers.</p>
           <a class="more" href="https://anchorlab.science">Visit the lab &rarr;</a>
         </article>
         <article class="uri-item">
@@ -524,7 +522,7 @@ research = head("Research · Matthew D. Hanson, Ph.D.",
         <div class="key-work">
           <h3>Key work</h3>
           <ul>
-            <li>Hanson, Randall, &amp; Banfi, need satisfaction across life domains (manuscript under review)</li>
+            <li>Hanson, Randall, &amp; Banfi, need satisfaction across life domains (two-study manuscript in revision; Study 2 is a daily diary study now in preparation in the ANCHOR Lab)</li>
             <li>How psychological need satisfaction and motivation influence burnout in submariners (Defense Health Program, $130K, co-investigator)</li>
             <li>Submariner training success: Predicting graduation from the submarine training pipeline (Defense Health Program, $265K, co-investigator)</li>
           </ul>
@@ -554,7 +552,7 @@ research = head("Research · Matthew D. Hanson, Ph.D.",
         </ol>
         <div class="lab" id="anchor">
           <h3>The ANCHOR Lab</h3>
-          <p>This work happens in the ANCHOR Lab, which studies fair assessment, leadership, motivation and recovery, and workplace learning. Undergraduate and graduate students take part in real projects, from study design to analysis, and URI students can join for credit through MGT 491 (Directed Study).</p>
+          <p>This work happens in the ANCHOR Lab, which studies fair assessment, leadership, motivation and recovery, and workplace learning. Undergraduate and graduate students take part in real projects, from study design to analysis, and URI students can join for 1 to 3 credits a semester through MGT 491 (fall) or MGT 492 (spring) Directed Study, or as volunteers.</p>
           <p><a class="btn btn-secondary" href="https://anchorlab.science">Visit the ANCHOR Lab website &rarr;</a> <a class="btn btn-secondary" href="https://anchorlab.science/join">Apply to join</a></p>
           <p>I also co-direct the <strong>College of Business Behavioral Lab</strong> in URI&rsquo;s Coastal Institute, a shared facility for experimental and survey research.</p>
         </div>
