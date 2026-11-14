@@ -10,7 +10,7 @@ EMAIL = "matthew.hanson@uri.edu"
 SCHOLAR = "https://scholar.google.com/citations?user=Q8gXnk0AAAAJ&hl=en"
 LINKEDIN = "https://www.linkedin.com/in/matthew-hanson-phd-83102324"
 EVERGREEN = "https://evergreenassessments.com"
-UPDATED = "October 2026"
+UPDATED = "November 2026"
 YEAR = 2026
 
 NAV = [("index.html", "About", "home"), ("research.html", "Research", "research"),
@@ -144,7 +144,6 @@ REPORTS = [
 ]
 REVIEW = [
     dict(authors="Hanson, M. D., Randall, J. G., & Banfi, J. T.", title="Practice, label, or placebo? An experimental test of mindfulness effects in organizational training"),
-    dict(authors="Hong, P. Y., Hanson, M. D., Lishner, D. A., Kelso, S., & Steinert, S.", title="A randomized field experiment examining the effect of mindfulness on children&rsquo;s, parents&rsquo;, and teachers&rsquo; ratings of children&rsquo;s mood and behavior"),
 ]
 TALKS = [
     dict(year=2024, authors="Clark, D., Hernandez, D., Dilweg, D., Hanson, M. D., & Bizarro, A.", title="Associations between submarine officer personality and operational outcomes", venue="Military Health System Research Symposium", details="Kissimmee, FL"),
@@ -670,7 +669,7 @@ cv = head("CV · Matthew D. Hanson, Ph.D.",
       <p class="lede">A summary of my training and experience. The full CV, including every presentation and poster, is available as a PDF.</p>
     </div>
     <div class="btn-row">
-      <a class="btn btn-primary" href="matthew-hanson-cv.pdf">Download full CV <span class="meta">PDF, updated Oct 2026</span></a>
+      <a class="btn btn-primary" href="matthew-hanson-cv.pdf">Download full CV <span class="meta">PDF, updated Nov 2026</span></a>
     </div>
   </div>
 </section>
@@ -758,6 +757,10 @@ cv = head("CV · Matthew D. Hanson, Ph.D.",
       <div class="cv-block">
         <h2>Service</h2>
         <ul class="plain-list">
+          <li><span class="when">2026</span> Lead, Sona Systems Participant Pool Initiative, URI College of Business: faculty interest survey and coordination with the Department of Psychology on a proposed one-semester shared participant pool pilot</li>
+          <li><span class="when">2026</span> Panelist, Dean&rsquo;s Advisory Council, URI College of Business</li>
+          <li><span class="when">2026</span> Member, Management PhD Program Task Force, URI College of Business</li>
+          <li><span class="when">2026</span> Ad hoc reviewer, <cite>Military Psychology</cite></li>
           <li><span class="when">2025&ndash;present</span> Co-lead, Conference Submission Subcommittee, SIOP Military and Veterans Inclusion Committee</li>
           <li><span class="when">2017&ndash;2018</span> Assistant Editor, <cite>Journal of Business and Psychology</cite></li>
           <li><span class="when">2019</span> Volunteer, Girls Inc. EUREKA! STEM program, University at Albany</li>
